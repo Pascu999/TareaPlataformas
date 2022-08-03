@@ -1,0 +1,21 @@
+# Nodo 2
+
+should_transfer_files = yes
+
+executable   = nodo2_1.sh
+
+input    =   datos-adultos-us.csv
+error        = nodo2_1.error
+log          = nodo2_1.log
+
+queue 
+
+
+
+input    =   datos-adultos-us.csv
+executable   = nodo2_3.sh
+error        = nodo2_3.error
+log          = nodo2_3.log
+
+
+queue 

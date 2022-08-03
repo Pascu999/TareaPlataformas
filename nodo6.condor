@@ -1,0 +1,14 @@
+# Nodo 6 
+
+should_transfer_files = yes
+
+executable   = nodo6.sh
+
+input        = datos-adultos-us.csv
+error        = nodo6.error
+log          = nodo6.log
+
+queue 
+
+
+

@@ -1,0 +1,12 @@
+# Nodo 3 
+
+should_transfer_files = yes
+
+executable   = nodo3.sh
+
+input        = datos-adultos-us.csv
+error        = nodo3.error
+log          = nodo3.log
+
+queue 
+

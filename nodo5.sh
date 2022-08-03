@@ -1,0 +1,2 @@
+#!/bin/sh
+ awk -F, '{if($9 == " Black" && $15 == " >50K" ) {sum+= 1; print $1"\t"$9"\t"$15 }} END {print "Personas Black con un income superior a 50K = ",sum}' datos-adultos-us.csv | tee -a reporte_2.txt  && echo "//////////////////////////////////////////////////////////////////////////" | tee -a reporte_2.txt &&  awk -F, '{if($10 == " Female" && $15 == " >50K" ) {sum+= 1; print $1"\t"$10"\t"$15 }} END {print "Personas Female con un income superior a 50K = ",sum}' datos-adultos-us.csv | tee -a reporte_2.txt 

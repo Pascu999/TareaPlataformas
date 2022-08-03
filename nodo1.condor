@@ -1,0 +1,16 @@
+# Nodo 1 
+
+executable   = /bin/wget 
+
+arguments = http://archive.ics.uci.edu/ml/machine-learning-databases/adult/adult.data  -O datos-adultos-us.csv 
+
+output       = nodo1.output
+error        = nodo1.error
+log          = nodo1.log
+
+
+
+should_transfer_files = yes
+
+queue 
+

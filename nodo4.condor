@@ -1,0 +1,14 @@
+# Nodo 4
+
+should_transfer_files = yes
+
+executable   = nodo4.sh
+
+input        = datos-adultos-us.csv
+error        = nodo4.error
+log          = nodo4.log
+
+queue 
+
+
+
